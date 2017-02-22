@@ -1,0 +1,29 @@
+{
+  "name": "canvas-syncing-assignment-part4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"tests complete\"",
+    "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJKaufman/canvas-syncing-assignment-part4.git"
+  },
+  "author": "Aidan Kaufman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJKaufman/canvas-syncing-assignment-part4/issues"
+  },
+  "homepage": "https://github.com/AJKaufman/canvas-syncing-assignment-part4#readme",
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "dependencies": {
+    "socket.io": "^1.7.2"
+  }
+}
